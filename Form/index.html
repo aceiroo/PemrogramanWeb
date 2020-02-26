@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <fieldset>
+            <legend>Your Details:</legend>
+
+            <form action="/action_page.php">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                
+                <label for="lname">Email:</label><br>
+                <input type="email" id="lname" name="lname"><br><br>
+            </form>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Your Review:</legend>
+
+            How did you hear about us? Google Friend Advert Other
+
+            <p>Would you visit again?</p>
+            <form action="/action_page.php">
+                <label for="fname">Yes</label>
+                <input type="radio" name="choice">
+           
+                <label for="lname">No</label>
+                <input type="radio" name="choice">
+                
+                <label for="lname">Maybe</label>
+                <input type="radio" name="choice"><br><br>
+             
+                <label>Comments:</label><br>
+                <textarea rows="4" cols="50">
+
+                </textarea><br>
+
+                <input type="checkbox" id="lname" name="lname">
+                <label for="lname">Sign me up for email updates</label><br>
+                <input type="submit" value="Submit review">
+                
+            </form>
+
+    
+        </fieldset>
+    </body>
+
+</html>
