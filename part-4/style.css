@@ -1,0 +1,49 @@
+.border{
+    border-style: double;
+    border-color: black;
+    position: relative;
+    width: 700;
+    border-width: 3px;
+    
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.title{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 25px;
+ 
+}
+
+#nav{
+    
+    text-align: center;
+   
+}
+
+li:hover{
+    color: red;
+}
+
+.innerBorder{
+    border-style: solid;
+    border-width: thin;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-color: black white black white;
+
+}
+
+
+.innerBorder-2{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+
+}

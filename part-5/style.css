@@ -1,0 +1,10 @@
+li{
+    display: inline;
+    margin: 10px;
+
+}
+
+li.hidden{
+    visibility: hidden;
+}
+
