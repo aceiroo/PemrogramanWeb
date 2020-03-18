@@ -71,6 +71,11 @@ select.mchoice{
     margin-left: 36px;
 }
 
+.mber{
+    display: inline;
+    font-weight: normal;
+}
+
 legend{
     font-style: italic;
 }
