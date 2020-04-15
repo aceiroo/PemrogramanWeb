@@ -1,0 +1,295 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins"; 
+
+
+@font-face {
+  font-family: "Inconsolata-Regular";
+  src: url("Font/Inconsolata-Regular.ttf");
+  font-family: "._PlayfairDisplay-Regular";
+  src: url("Font/._PlayfairDisplay-Regular.ttf");
+  font-family: "._Ubuntu-Light";
+  src: url("Font/._Ubuntu-Light.ttf");
+}
+$body-bg : white;
+$body-color : grey;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * 1),
+    3: $spacer,
+    4: ($spacer * 2),
+    5: ($spacer * 3),
+    6: ($spacer * 7),
+    7: ($spacer * 5),
+    8: ($spacer * 6.5),
+    9: ($spacer * 5.5)
+  ),
+  $spacers
+);
+
+.text-1{
+  font-family: 'Ubuntu';
+  font-size: 14pt;
+  margin-left: 4rem;
+  color: #b4ad9e;
+};
+
+.text-2{
+  font-family: "._PlayfairDisplay-Regular.ttf";
+  color: #626262;
+  font-size: 30pt;
+  margin-left: 4rem;
+}
+
+.text-3{
+  font-family: "._PlayfairDisplay-Regular.ttf";
+  color: #626262;
+  font-size: 14pt;
+  margin-left: 4rem;
+  margin-right: 5rem; 
+}
+
+.text-4{
+  font-family: 'Ubuntu';
+  font-size: 14pt;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  color: #b4ad9e;
+}
+
+.text-row1{
+  font-family: 'Ubuntu';
+  font-size: 14pt;
+  color: #b4ad9e;
+}
+
+.text-row1-1{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  font-size: 25pt;
+  color: #626262;
+}
+
+.text-row1-2{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  font-size: 12pt;
+  color: #626262;
+  padding-right: 1rem;
+}
+
+.text-row1-right1{
+  font-family: 'Ubuntu';
+  font-size: 14pt;
+  color: #b4ad9e;
+}
+
+.text-row1-right2{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  font-size: 25pt;
+  color: #626262;
+}
+
+.text-row1-right3{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  font-size: 12pt;
+  color: #626262;
+  padding-right: 7rem;
+}
+
+.table1{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  background-color: #f0f0f0;
+  height: 287px;
+  font-size: 25pt;
+  color: #333333;
+}
+
+.text-email{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  color: #626262;
+  font-size: 12pt;
+  margin-left: 32rem;
+}
+
+.image-table-line{
+  margin-left: 32rem;
+  margin-top: -5rem;
+}
+
+.image-table-send{
+  margin-top: -7rem;
+  margin-left: -2.5rem;
+}
+
+.text-loadmore{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  color: #626262;
+  font-size: 13pt;
+  margin-bottom: -1.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 15px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.table-2{
+  margin-left: 30rem;
+  margin-right: 30rem;
+  border-color: #dddcd7;
+}
+
+.spacer{
+  width: 1200px;
+  height: 1367px;
+}
+
+.table-footer{
+  background-color: #f0f0f0;
+  height: 100px;
+}
+
+.text-follow, .text-terms, .text-privacy{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  color: #000000;
+}
+
+
+//fullwidth.html
+
+.text-part2-1{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  color: #626262;
+  font-style: italic;
+  font-size: 14pt;
+}
+
+.text-part2-2{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  color: #626262;
+  font-size: 14pt;
+}
+.text-part2{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-share, .text-connectedwith{
+  font-family: 'Ubuntu';
+  color: #b4ad9e;
+}
+
+.grid-post{
+  background-color: #f0f0f0;
+  height: 435px;
+}
+
+.grid-content{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid-text1{
+  font-family: 'Ubuntu';
+  font-size: 14pt;
+  color: #b4ad9e;
+}
+
+.text-grid{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  color: #626262;
+  font-size: 16pt;
+}
+
+.comment-content{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.comment-1{
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: #b4ad9e;
+}
+
+.text-john{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text-john-comment, .text-jane-comment{
+  margin-top: -2.5rem;
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  font-size: 14px;
+}
+
+.text-reply{
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: #b4ad9e;
+}
+
+.text-jane-comment{
+  margin-top: -2.5rem;
+}
+
+.comment-input-form{
+  width: 794px !important;
+  height: 72px !important;
+  font-family: 'Ubuntu';
+  font-size: 14px !important;
+  color: #c8c8c8 !important;
+}
+
+.comment-textinput{
+  margin-left: 7px;
+}
+
+.text-aboutme{
+  color: #626262;
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  font-size: 24px;
+}
+
+.text-side{
+  color: #626262;
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  font-size: 12px;
+}
+
+.text-list{
+  color: #b4ad9e;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+}
+
+li{
+  color: #b4ad9e;
+}
+
+.text-alllist{
+  font-family: '._PlayfairDisplay-Regular.ttf';
+  color: #626262;
+  font-size: 16px;
+}
+
+.text-allcomments{
+  font-family: 'Ubuntu';
+  color: #b4ad9e;
+  font-size: 12px;
+  margin-top: -10px;
+}
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+ 
+

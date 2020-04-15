@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Inconsolata-Regular";
+    src: url("Font/Inconsolata-Regular.ttf");
+    font-family: "._PlayfairDisplay-Regular";
+    src: url("Font/._PlayfairDisplay-Regular.ttf");
+  }
+  .navbar-brand{
+    color: black;
+    font-family: "Inconsolata-Regular"!important;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-family: "._PlayfairDisplay-Regular";
+    text-transform: uppercase;
+    text-decoration-color: #626262;
+};
+
+.navbar-brand:hover
+{
+    color: black;
+} 
+
+.nav-link
+{
+    color: grey;
+}
+
+.nav-link:hover,
+.nav-link:active
+{
+    color: black;
+}
+
+.navbar-nav > .active > a {
+    color: black;  
+  }
+
+.image-cover{
+    margin-top: 1rem;
+};
+
