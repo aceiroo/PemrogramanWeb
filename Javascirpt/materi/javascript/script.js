@@ -41,11 +41,12 @@
             var itemBall = document.getElementById("txt-q-bball").value,
             itemJersey = document.getElementById("txt-q-jersey").value,
             itemPower = document.getElementById("txt-q-power").value,
+            itemMineral = document.getElementById("txt-q-mineral").value,
             shippingState = state.value,
             shippingMethod = document.querySelector("[name=r_method]:checked").value;
 
-            var totalQty = parseInt(itemBall) + parseInt(itemJersey) + parseInt(itemPower),
-            shippingCostPer, shippingCost, taxFactor = 1, estimate, totalItemPrice = (90 * itemBall) + (25 * itemJersey) + (30 * itemPower);
+            var totalQty = parseInt(itemBall) + parseInt(itemJersey) + parseInt(itemPower) + parseInt(itemMineral),
+            shippingCostPer, shippingCost, taxFactor = 1, estimate, totalItemPrice = (90 * itemBall) + (25 * itemJersey) + (30 * itemPower) + (4 * itemMineral);
 
             if (shippingState === "CA"){
                 taxFactor = 1.075;
